@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masterly Academy</title>
+    <!--Tailwind link-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--External css link-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Just it is design a desktop-->
+    <section class="hidden lg:block" >
+       <div class="flex justify-between items-center bg-blue-800 text-white p-3 px-36 text-sm ">
+        <div class="flex gap-12">
+            <h1 class="font-medium">Call:+880186577**87</h1>
+            <p>Follow Us</p>
+            <div class="space-x-3">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+        <div class="flex ">
+            <div class="pr-24 flex gap-6">
+                <p><i class="fa-solid fa-right-to-bracket"></i> Login</p>
+            <p><i class="fa-solid fa-user pr-2"></i>Register</p>
+            </div>
+            <div>
+                <h1 class="font-medium">Language  <i class="fa-solid fa-angle-down pl-12 "></i></i></h1>
+            </div>
+        </div>
+       </div>
+    </section>
+     <!--Start nav bar section.-->
+     <nav class="bg-white shadow-lg p-3">
+        <div class="container mx-auto px-4 flex items-center justify-between h-16">
+  
+          <div class="flex items-center space-x-2">
+            <img 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZfDZpGkafpTxb2qKWupl5vTcpwh58VWoMtQ&s" 
+              alt="logo for Masterly" 
+              class="h-16 w-16 rounded-full">
+            <p class="text-3xl text-indigo-950 font-bold">ASTERLY</p>
+          </div>
+          <div class="lg:hidden">
+            <button id="menu-toggle" class="text-gray-600 focus:outline-none">
+              <i class="fa-solid fa-bars text-xl"></i>
+            </button>
+          </div>  
+          <!-- Navigation Links -->
+          <ul id="menu" class="hidden lg:flex space-x-6 text-gray-700 font-medium">
+            <li><a href="#" class="hover:text-blue-600">Home</a></li>
+            <li><a href="#" class="hover:text-blue-600">Pages</a></li>
+            <li><a href="#" class="hover:text-blue-600">Courses List</a></li>
+            <li><a href="#" class="hover:text-blue-600">Events</a></li>
+            <li><a href="#" class="hover:text-blue-600">Shop</a></li>
+            <li><a href="#" class="hover:text-blue-600">Blog</a></li>
+            <li><a href="#" class="hover:text-blue-600">Team</a></li>
+            <li><a href="#" class="hover:text-blue-600">Workshop</a></li>
+          </ul>
+ 
+          <div class="hidden lg:flex space-x-4 items-center">
+            <i class="fa-solid fa-magnifying-glass text-gray-700 hover:text-blue-600"></i>
+            <i class="fa-solid fa-bag-shopping text-gray-700 hover:text-blue-600"></i>
+          </div>
+        </div>
+  
+        <div id="mobile-menu" class="hidden lg:hidden bg-white shadow-lg">
+          <ul class="space-y-4 p-4 text-gray-700">
+            <li><a href="#" class="block hover:text-blue-600">Home</a></li>
+            <li><a href="#" class="block hover:text-blue-600">Pages</a></li>
+            <li><a href="#" class="block hover:text-blue-600">Courses List</a></li>
+            <li><a href="#" class="block hover:text-blue-600">Events</a></li>
+            <li><a href="#" class="block hover:text-blue-600">Shop</a></li>
+            <li><a href="#" class="block hover:text-blue-600">Blog</a></li>
+            <li><a href="#" class="block hover:text-blue-600">Team</a></li>
+            <li><a href="#" class="block hover:text-blue-600">Workshop</a></li>
+          </ul>
+          <div class="flex space-x-4 p-4">
+            <i class="fa-solid fa-magnifying-glass text-gray-700 hover:text-blue-600"></i>
+            <i class="fa-solid fa-bag-shopping text-gray-700 hover:text-blue-600"></i>
+          </div>
+        </div>
+      </nav>
+      
+      <script src="javaScript.js"></script>
+      
+</body>
+</html>
